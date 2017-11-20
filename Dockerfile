@@ -38,8 +38,5 @@ WORKDIR /application
 # Expose volumes
 VOLUME ["/application"]
 
-# Expose ports
-EXPOSE 9000
-
 # Entry point
 ENTRYPOINT ["/usr/sbin/php-fpm7"]
