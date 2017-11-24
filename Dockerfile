@@ -4,7 +4,7 @@ MAINTAINER Marijn Vandevoorde <marijnnn@gmail.com>
 # Install GD extension
 RUN apk add --no-cache \
       freetype-dev libpng-dev libjpeg-turbo-dev \
-      curl-dev icu-dev gettext-dev libmcrypt-dev pwdlibxml2-dev\
+      curl-dev icu-dev gettext-dev libmcrypt-dev libxml2-dev\
       freetype libpng libjpeg libmcrypt gettext libintl icu \
     && docker-php-ext-configure gd \
       --with-freetype-dir=/usr/include/ \
